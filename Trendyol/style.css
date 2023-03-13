@@ -1,0 +1,370 @@
+.container {
+  width: 85%;
+}
+.container .ilkkisim {
+  display: flex;
+  justify-content: end;
+}
+.container .ilkkisim a {
+  text-decoration: none;
+  color: rgb(120, 119, 119);
+  padding: 9px;
+  font-size: 12px;
+}
+.container .ilkkisim a:hover {
+  color: rgb(53, 53, 53);
+}
+
+@media screen and (max-width: 600px) {
+  .ilkkisim {
+    display: none;
+  }
+}
+.navbar .container a img {
+  width: 150px;
+}
+.navbar .container form {
+  width: 600px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+.navbar .container form input {
+  background-color: rgb(240, 240, 240);
+  font-size: 15px;
+  box-shadow: none;
+  border-color: none;
+}
+.navbar .container form input:hover {
+  border-color: #f27a1a;
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #f27a1a;
+}
+.navbar .container .navbar-collapse .navbar-nav img {
+  width: 14px;
+  margin-right: 5px;
+}
+.navbar .container .navbar-collapse li a img {
+  width: 10px;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 99999; 
+  font-size: 13px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content .isim {
+  color: #f27a1a;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color: #f27a1a;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+/* Style The Dropdown Button */
+.dropbtn2 {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 99999;
+  font-size: 13px;
+}
+
+/* Links inside the dropdown */
+.dropdown2-content a {
+  color: black;
+  padding: 2px 10px;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  margin-left: 20px;
+}
+
+.dropdown2-content .isim {
+  color: #f27a1a;
+}
+
+.dropdown2 .dropdown2-content .row .col-md-4 img {
+  width: 300px;
+  height: 200px;
+  padding: 1rem;
+  margin-left: 20px;
+  border-radius: 30px;
+  transition: all 0.5s linear;
+}
+
+.dropdown2 .dropdown2-content .row .col-md-4 img:hover {
+  width: 320px;
+  height: 220px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown2-content a:hover {
+  color: #f27a1a;
+  text-decoration: underline;
+  border: #f27a1a;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown2-content {
+  display: block;
+  position: fixed;
+  left: 100px;
+  right: 100px;
+  color: #f27a1a;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown2:hover .dropbtn2 {
+  background-color: white;
+  color: #f27a1a;
+  text-decoration: underline;
+  border: #f27a1a;
+}
+
+.cizgi {
+  margin-top: -10px;
+}
+
+#carousel1 .item img {
+  width: 70px;
+}
+#carousel1 .item:hover {
+  color: #f27a1a;
+}
+
+#carousel2 .item img {
+  width: 70px;
+}
+#carousel2 .item:hover {
+  color: #f27a1a;
+}
+
+.owl-nav {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .altkisim {
+    display: none;
+  }
+}
+.kisim-1 {
+  margin-top: 4rem;
+}
+.kisim-1 .container .row .col-md-4 a {
+  text-decoration: none;
+}
+.kisim-1 .container .row .col-md-4 a img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.kisim-1 .container .row .col-md-4 a p {
+  background-color: black;
+  color: white;
+  padding: 7px;
+  font-size: 13px;
+  border-radius: 0 0 10px 10px;
+}
+.kisim-1 .container .row .col-md-4 a p:hover {
+  background-color: #f27a1a;
+}
+
+.kisim-2 .container {
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fffaf6;
+  border: 1px solid #f2e5da;
+}
+.kisim-2 .container .kisim-2-card {
+  width: 198px;
+  height: 270px;
+  margin: 1px 15px 1px 1px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #e6e6e6;
+  background-color: #fff;
+}
+.kisim-2 .container .kisim-2-card img {
+  margin-left: 60px;
+}
+.kisim-2 .container .kisim-2-card .fiyat {
+  color: #f27a1a;
+}
+
+.yazilar p {
+  font-size: 14px;
+  color: gray;
+}
+
+.kisim3 {
+  font-size: 14px;
+  color: rgb(43, 42, 42);
+}
+.kisim3 ul {
+  list-style: none;
+}
+.kisim3 ul li {
+  padding: 2px;
+}
+.kisim3 ul li a {
+  text-decoration: none;
+  color: rgb(43, 42, 42);
+}
+.kisim3 ul li a:hover {
+  color: #f27a1a;
+}
+
+.footer-yazi {
+  font-size: 14px;
+}
+.footer-yazi ul {
+  margin-top: 50px;
+}
+.footer-yazi ul .footer-yazi2 {
+  font-size: 25px;
+}
+.footer-yazi ul li {
+  list-style: none;
+  padding: 6px;
+}
+.footer-yazi ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-yazi ul li a:hover {
+  color: #f27a1a;
+}
+
+.fotograf-yazi2 {
+  font-size: 14px;
+}
+.fotograf-yazi2 ul {
+  margin-top: 50px;
+}
+.fotograf-yazi2 ul .footer-yazi2 {
+  font-size: 25px;
+}
+.fotograf-yazi2 ul li {
+  list-style: none;
+  padding: 6px;
+}
+.fotograf-yazi2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+.fotograf-yazi2 ul li a:hover {
+  color: #f27a1a;
+}
+
+.fotograflar img {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.fotograflaryazi {
+  margin-left: 38px;
+}
+
+.footer-img {
+  width: 150px;
+  margin-left: 30px;
+}
+
+.footer-yazi3 {
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+.footer-yazi4 {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.footer-button {
+  margin-left: 38px;
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.footer-img2 img {
+  width: 100px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.footer-img2 .img2 {
+  margin-top: 40px;
+  width: 60px;
+}
+
+.footer3 {
+  font-size: 13px;
+  background: #2d2d2d;
+  color: white;
+  padding: 2px;
+}
+.footer3 .row a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

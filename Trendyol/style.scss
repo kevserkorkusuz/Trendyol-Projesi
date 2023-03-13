@@ -1,0 +1,482 @@
+.container{
+    width: 85%;
+    .ilkkisim{
+        display: flex;
+        justify-content: end;
+       
+        a{
+            text-decoration: none;
+            color: rgb(120, 119, 119);
+            padding: 9px;
+            font-size: 12px;
+            &:hover {
+                color: rgb(53, 53, 53);
+            }
+        }
+      
+
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+    .ilkkisim {
+        display: none;
+    }
+    
+}
+
+.navbar{
+    .container {
+        a {
+            img{
+                width:150px;
+            }
+        }
+        form {
+                width: 600px;
+                margin-left: 0px;
+                border-radius: 10px;
+                input {
+                    background-color: rgb(240, 240, 240);
+                    font-size: 15px;
+                    box-shadow: none;
+                    border-color: none;
+                    &:hover {
+                        border-color: #f27a1a;
+                    }
+                }
+                
+                
+                
+        }
+        .navbar-collapse {
+            .navbar-nav {  
+                .nav-item {  
+                    .nav-link {
+                        &:hover {
+                            color: #f27a1a;
+                        }
+                        }
+                    }
+                    img {
+                        width: 14px;
+                        margin-right: 5px;
+                       }
+   
+
+                }
+                li {
+                        a {
+                            img {
+                                width: 10px;
+                            }
+                        }
+                 }
+            }
+        }
+    }
+
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 13px; 
+  }
+
+
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content .isim {
+    color: #f27a1a;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+   color: #f27a1a;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color:white;
+  }
+
+
+  /* Style The Dropdown Button */
+.dropbtn2 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown2-content {  
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99999; 
+    font-size: 13px;
+  }
+
+  
+  
+  /* Links inside the dropdown */
+  .dropdown2-content a {
+    color: black;
+    padding: 2px 10px;
+    text-decoration: none;
+    display: block;
+    display: flex;
+    margin-left: 20px;
+  }
+  .dropdown2-content .isim {
+    color: #f27a1a;
+  }
+
+  .dropdown2 .dropdown2-content .row .col-md-4 img{
+    width: 300px;
+    height: 200px;
+    padding: 1rem;
+    margin-left: 20px;
+    border-radius: 30px;
+    transition: all .5s linear;
+
+  }
+
+  .dropdown2 .dropdown2-content .row .col-md-4 img:hover{
+    width: 320px;
+    height: 220px;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown2-content a:hover {
+   color: #f27a1a;
+   text-decoration: underline;
+   border: #f27a1a;
+   
+   
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown2:hover .dropdown2-content {
+    display: block;
+    position: fixed;
+    left: 100px;
+    right: 100px;
+    color: #f27a1a;   
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown2:hover .dropbtn2 {
+    background-color:white;
+    color: #f27a1a;
+    text-decoration: underline;
+    border: #f27a1a;
+  }
+
+  .cizgi {
+    margin-top: -10px;
+  }
+
+
+  // @media screen and (max-width: 600px) {
+  //   .navbar .collapse{
+  //     display: block;
+  //   }
+  // }
+
+    // .owl22 {
+    //   display: block;
+    // }
+
+    // @media screen and (max-width:600px) {
+    //   .owl22 {
+    //     display: block;
+       
+    //   }
+      
+    // }
+
+    #carousel1 {
+      .item {
+        img {
+          width: 70px;
+
+        }
+        &:hover {
+          color: #f27a1a;
+        }
+       
+      }
+      
+    }
+
+    #carousel2 {
+      .item {
+        img {
+          width: 70px;
+
+        }
+        &:hover {
+          color: #f27a1a;
+        }
+       
+      }
+      
+    }
+
+    .owl-nav {
+      display: none;
+    }
+
+ @media screen and (max-width:600px){
+  .altkisim {
+    display: none;
+  }
+  
+ }
+
+ .kisim-1 {
+  margin-top: 4rem;
+  .container {
+    .row {
+      .col-md-4{
+        
+        a{
+          text-decoration: none;
+          
+          img {
+            width: 100%;
+            border-radius: 10px 10px 0 0 ;
+       
+          }
+          p {
+            background-color: black;
+            color: white;
+            padding: 7px;
+            font-size: 13px;
+            border-radius:  0 0 10px 10px;
+            &:hover {
+              background-color: #f27a1a;
+            }
+          }
+        }
+
+      }
+    }
+  }
+ }
+ 
+.kisim-2{
+  .container {
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    background-color: #fffaf6;
+    border: 1px solid #f2e5da;
+  
+    .kisim-2-card {
+      width: 198px;
+      height: 270px;
+      margin: 1px 15px 1px 1px;
+      border-radius: 6px;
+      box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+      border: solid 1px #e6e6e6;
+      background-color: #fff;
+      img {
+        margin-left:60px;
+      }
+      .fiyat {
+        color: #f27a1a;
+      }
+      
+      
+      
+     }
+  }
+}
+
+
+.yazilar {
+  p {
+    font-size: 14px;
+    color: gray;
+  }
+}
+
+.kisim3 {
+  font-size: 14px;
+  color: rgb(43, 42, 42);
+  ul {
+    list-style: none;
+   
+    li {
+      padding: 2px;
+      
+      a {
+      
+        text-decoration: none;
+        color: rgb(43, 42, 42);
+        &:hover {
+          color: #f27a1a;
+
+        }
+      }
+    } 
+  }
+}
+
+.footer-yazi {
+  font-size: 14px;
+
+  ul {
+    margin-top: 50px;
+    .footer-yazi2 {
+      font-size: 25px;
+    }
+    li {
+      list-style: none;
+      padding: 6px;
+      a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+          color: #f27a1a;
+
+        }
+        
+      }
+    }
+  }
+}
+
+.fotograf-yazi2 {
+  font-size: 14px;
+
+  ul {
+    margin-top: 50px;
+    .footer-yazi2 {
+      font-size: 25px;
+    }
+    li {
+      list-style: none;
+      padding: 6px;
+      a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+          color: #f27a1a;
+
+        }
+        
+      }
+    }
+  }
+
+}
+
+.fotograflar {
+  img {
+  width: 50px;
+  margin-left: 20px;
+  }
+}
+.fotograflaryazi {
+  margin-left: 38px;
+}
+
+.footer-img {
+  width: 150px;
+  margin-left: 30px;
+}
+
+.footer-yazi3 {
+  margin-left: 40px;
+  margin-top: 70px;
+}
+.footer-yazi4 {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.footer-button {
+  margin-left: 38px;
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.footer-img2 {
+  img {
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .img2 {
+    margin-top: 40px;
+    width: 60px;
+  }
+  
+}
+
+
+.footer3 {
+  font-size: 13px;
+  background: #2d2d2d;
+  color: white;
+  padding: 2px;
+
+  .row {
+    a {
+      
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
